@@ -51,9 +51,9 @@ Thumbs.db
 *.tmp
 *.temp
 
-# Test files
-test_*
+# Test files (but keep our main test file)
 *_test.py
+!test_installer.py
 
 # Documentation build
 docs/_build/
